@@ -1,0 +1,103 @@
+Problem Statement 1
+=======
+
+You will be given a positive integer N. You need to print "I Love Assignment" N times without the quotation mark.
+
+Input Format
+
+Input will contain N.
+Constraints
+
+1 <= N <= 10^5
+Output Format
+
+Output "I Love Assignment" N times and don't forget to print new line after it.
+Sample Input 0
+
+5
+Sample Output 0
+
+I Love Assignment
+I Love Assignment
+I Love Assignment
+I Love Assignment
+I Love Assignment
+
+
+Problem Statement
+=================
+You will be given an integer N. If N is a negative number or zero print from N to 1, otherwise print from 1 to N.
+
+Input Format
+
+Input will contain N.
+Constraints
+
+-10^5 <= N <= 10^5
+Output Format
+
+Output as asked in the question and don't forget to put a space between the values.
+Sample Input 0
+
+-5
+Sample Output 0
+
+-5 -4 -3 -2 -1 0 1 
+Sample Input 1
+
+5
+Sample Output 1
+
+1 2 3 4 5 
+Sample Input 2
+
+0
+Sample Output 2
+
+0 1
+
+
+Problem Statement
+
+===============
+
+You will given a positive integer N and an array A of size N. Also you will be given two values X and V. You need to change the value of X'th index to V and then print the array in reverse way.
+
+Note: Index starts from 0.
+
+Input Format
+
+First line will contain N.
+Second line will contain the array A.
+Third line will contain X and V.
+Constraints
+
+1 <= N <= 10^5
+1 <= A[i] <= 100 ; where A[i] are the values of array A.
+0 <= X < N
+1 <= V <= 100
+Output Format
+
+Output the final array in reverse order.
+Sample Input 0
+
+5
+10 20 30 40 50
+1 100
+Sample Output 0
+
+50 40 30 100 10 
+Explanation 0
+
+After updating the value of 1st index, the array will become 10 100 30 40 50.
+The reverse order will be 50 40 30 100 10.
+Sample Input 1
+
+5
+10 20 30 40 50
+4 10
+Sample Output 1
+
+10 40 30 20 10 
+
+=> update print and reverse and even has bit if errors
